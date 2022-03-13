@@ -1,8 +1,8 @@
 import React from "react";
 import classes from "./Contact.module.css";
 
-const Contatct = () => {
-  return <div>Contatct</div>;
+const Contact = () => {
+  return <section id="contact">Contact</section>;
 };
 
-export default Contatct;
+export default Contact;

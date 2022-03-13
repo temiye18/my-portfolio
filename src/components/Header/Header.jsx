@@ -1,12 +1,12 @@
 import React from "react";
-import classes from "./Header.module.css";
 import CTA from "./CTA";
 import ME from "../../assets/me.png";
 import HeaderSocials from "./HeaderSocials";
+import classes from "./Header.module.css";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className={`container ${classes.header__container}`}>
         <h5>Hello I'm</h5>
         <h1>Akinyemi Temiye</h1>

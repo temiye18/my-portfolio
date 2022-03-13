@@ -5,13 +5,17 @@ import { FaGithub, FaTwitter } from "react-icons/fa";
 const HeaderSocials = (props) => {
   return (
     <div className={props.className}>
-      <a href="https://linkedin.com" rel="noreferrer" target="_blank">
+      <a
+        href="https://www.linkedin.com/in/akinyemi-olamilekan-temiye-399669159/"
+        rel="noreferrer"
+        target="_blank"
+      >
         <BsLinkedin />
       </a>
-      <a href="https://github.com" rel="noreferrer" target="_blank">
+      <a href="https://github.com/temiye18" rel="noreferrer" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://twitter.com" rel="noreferrer" target="_blank">
+      <a href="https://twitter.com/ATemiye" rel="noreferrer" target="_blank">
         <FaTwitter />
       </a>
     </div>
