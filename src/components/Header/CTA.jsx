@@ -8,7 +8,7 @@ const CTA = (props) => {
         Download CV
       </a>
       <a href="#contact" className="btn btn-primary">
-        let's Talk
+        Let's Talk
       </a>
     </div>
   );
