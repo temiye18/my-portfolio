@@ -12,25 +12,25 @@ const PortfolioItems = ({
         return (
           <article key={item.id} className={className}>
             <div className={imageClassName}>
-              <img src={item.image} alt="" />
+              <img src={item.image} alt={item.title} />
             </div>
             <h3>{item.title}</h3>
             <div className={ctaClassName}>
               <a
-                href={item.link}
+                href={item.github}
                 className="btn"
                 rel="noreferrer"
                 target="_blank"
               >
-                {item.linkTitle}
+                Github
               </a>
               <a
-                href={item.demoLink}
+                href={item.demo}
                 className="btn btn-primary"
                 rel="noreferrer"
                 target="_blank"
               >
-                {item.demoTitle}
+                Demo
               </a>
             </div>
           </article>
