@@ -22,7 +22,7 @@ const TestimonialItem = ({ testimonials }) => {
     >
       {testimonials.map(({ id, image, name, review }) => {
         return (
-          <SwiperSlide className={classes.testimonial}>
+          <SwiperSlide key={id} className={classes.testimonial}>
             <div className={classes.client__avatar}>
               <img src={image} alt={name} />
             </div>

@@ -31,11 +31,6 @@
   margin: 0.8rem auto 0;
 }
 
-/* span.swiper-pagination-bullet.swiper-pagination-bullet-active {
-  background: var(--color-primary);
-  background: red !important;
-} */
-
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) ============= */
 
 @media screen and (max-width: 1024px) {
