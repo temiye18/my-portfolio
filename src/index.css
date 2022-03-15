@@ -24,6 +24,9 @@
   --container-width-md: 86%;
   --container-width-sm: 90%;
 }
+span.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: var(--color-primary);
+}
 
 html {
   scroll-behavior: smooth;
